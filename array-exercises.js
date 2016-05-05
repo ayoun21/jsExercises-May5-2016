@@ -26,7 +26,9 @@ function example() {
   ie:
     quadArray() -> an array with 4 items
 */
-
+function quadArray(){
+  return [2,4,6,8];
+}
 
 /*
   Create a function named 'itemCount' with one parameter
@@ -36,7 +38,9 @@ function example() {
     itemCount([1, 2, 3]) -> 3
     itemCount(["hello", "hola", "bonjour", "ni hao"]) -> 4
 */
-
+function itemCount(price){
+  return price.length;
+}
 
 /*
   Create a function named 'firstItem' with one parameter
@@ -46,7 +50,9 @@ function example() {
     itemCount([1, 2, 3]) -> 1
     itemCount(["hello", "hola", "bonjour", "ni hao"]) -> "hello"
 */
-
+function firstItem(best){
+  return best[0];
+}
 
 /*
   Create a function named 'lastItem' with one parameter
@@ -56,7 +62,9 @@ function example() {
     lastItem([1, 2, 3]) -> 3
     lastItem(["hello", "hola", "bonjour", "ni hao"]) -> "ni hao"
 */
-
+function lastItem(worst){
+  return worst[worst.length(3)];
+} 
 
 /*
   Create a function named 'arrayEdge' with one parameter
@@ -66,7 +74,9 @@ function example() {
     arrayEdge([1, 2, 3]) -> [1, 3]
     arrayEdge(["hello", "hola", "bonjour", "ni hao"]) -> ["hello", "ni hao"]
 */
-
+function arrayEdge(tricky){
+  return tricky[0,2];
+}
 
 /*
   Create a function named 'processArray' with one parameter
